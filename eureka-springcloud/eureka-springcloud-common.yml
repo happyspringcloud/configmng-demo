@@ -1,6 +1,6 @@
 eureka:
   instance: 
-    hostname: ${HOSTNAME}.eureka-springcloud 
+    hostname: ${HOSTNAME.eureka-springcloud:localhost} 
   client: 
     register-with-eureka: true
     fetch-registry: true
