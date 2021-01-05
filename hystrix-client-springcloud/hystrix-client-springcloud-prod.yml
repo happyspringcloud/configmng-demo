@@ -1,1 +1,1 @@
-hystrixServiceHost: "http://hystrix-service-springcloud:8003"
+#hystrixServiceHost: "http://hystrix-service-springcloud:8003"

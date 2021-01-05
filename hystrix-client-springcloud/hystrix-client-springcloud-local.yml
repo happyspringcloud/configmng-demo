@@ -1,1 +1,1 @@
-hystrixServiceHost: "http://localhost:8003"
+#hystrixServiceHost: "http://localhost:8003"
