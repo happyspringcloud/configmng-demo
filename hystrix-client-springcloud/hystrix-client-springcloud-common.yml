@@ -1,5 +1,7 @@
 management:
-  endpoint:
+  endpoints:
+    web:
+      base-path: /
     hystrix:
       stream:
         enabled: true 
