@@ -1,8 +1,7 @@
 hystrix:
   dashboard: 
     #proxy-stream-allow-list: '*'  # asterisk doesn't work. You should define hosts as followed.
-    #TIP)localhost와 kubenetes service name(예:hystrix-client-springcloud)은 지정 필요 없음. 
-    proxy-stream-allow-list: "hystrix-client-springcloud.169.56.84.41.nip.io" 
+    proxy-stream-allow-list: "localhost,hystrix-cloud-springcloud,hystrix-client-springcloud.169.56.84.41.nip.io" 
   threadpool: 
     default:
       coreSize: 100               # thread core size: start
