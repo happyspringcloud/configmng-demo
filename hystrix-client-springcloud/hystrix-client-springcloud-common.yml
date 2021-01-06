@@ -1,6 +1,6 @@
 hystrix:
   dashboard: 
-    proxy-stream-allow-list: "*"
+    proxy-stream-allow-list: *
     #proxy-stream-allow-list: "localhost,hystrix-client-springcloud.169.56.84.41.nip.io,169.56.84.41,hystrix-client-springcloud"
   threadpool: 
     default:
