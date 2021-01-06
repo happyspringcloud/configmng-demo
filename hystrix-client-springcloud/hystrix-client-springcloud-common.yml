@@ -1,9 +1,4 @@
 hystrix:
-  dashboard: 
-    #proxy-stream-allow-list: '*'  # asterisk doesn't work. You should define hosts as followed.
-    #TIP) host ip로 지정할 수는 없음  
-    proxy-stream-allow-list: "localhost,hystrix-client-springcloud,hystrix-client-springcloud.169.56.84.41.nip.io" 
-
   threadpool: 
     default:
       coreSize: 100               # thread core size: start
